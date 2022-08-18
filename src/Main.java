@@ -33,12 +33,12 @@ public class Main {
 
         //task 3
         int averageVilaceSum=0;
-        averageVilaceSum=arrSum / arr.length-1;
+        averageVilaceSum=arrSum / arr.length;
         System.out.println("Средняя сумма затрат за месяц составила " + averageVilaceSum + " рублей");
 
         //task 4
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        for ( int i =0; i < reverseFullName.length; i++){
+        for ( int  i =0; i < reverseFullName.length; i++){
             System.out.print(reverseFullName[i]);
         }
 
